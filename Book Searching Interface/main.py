@@ -164,7 +164,7 @@ for i in range(1, 6):
 # Initialize text and image dictionaries
 text = {}
 image = {}
-
+#https://github.com/anantacoder - made by
 for i in range(1, 6):
     text[f'a{i}'] = Label(frames[2*i-2], text="Book Title", font=("Arial", 10), fg='green')
     text[f'c{i}'] = Label(frames[2*i-1], text="Year: Unknown", font=("arial", 10), bg="#e6e6e6")
